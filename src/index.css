@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply min-h-screen bg-[#f4f5f6] font-sans text-ink-900;
+  }
+
+  button {
+    @apply font-sans;
+  }
+
+  img {
+    @apply block;
+  }
+}
